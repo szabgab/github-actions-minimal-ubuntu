@@ -23,10 +23,12 @@ jobs:
 
     - name: Look around
       # When excuting more command we can use a pipeline | to indicate this.
+      # The goal of the following commands is to show you what is included in the
+      # ubuntu-latest platform.
       run: |
         uname -a
-        pwd     # /home/runner/work/REPO/REPO
-        whoami  # runner
+        pwd
+        whoami
         uptime
         which perl
         which python
