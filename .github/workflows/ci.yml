@@ -1,5 +1,5 @@
 # Use some descriptive name
-name: Minimal Ubuntu
+name: Minimal Ubuntu Workflow
 
 # The events that trigger this workflow.
 on:
@@ -31,6 +31,7 @@ jobs:
         whoami
         uptime
         which perl
+        # On Linux python is Python 2 and python3 is Python 3
         which python
         which python3
         which ruby
